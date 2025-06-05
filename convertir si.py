@@ -62,5 +62,8 @@ print("los ganadores para esta encuesta")
 dataConvertidaADataFrame = dataConvertidaADataFrame.rename(columns = {'edadesconIva':'edadesmodificadas'}) 
 print(dataConvertidaADataFrame)
 
+print("Repositorio para ingeniera Mia")
+print("Repositorio para ingeniera Margarita")
+
 
 
