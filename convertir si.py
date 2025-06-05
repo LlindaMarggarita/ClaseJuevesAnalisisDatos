@@ -50,6 +50,7 @@ print (dataConvertidaADataFrame.isnull())
 print ("cantidad de valores nulos: ")
 print (dataConvertidaADataFrame.isnull().sum())
 
+print("para tener encuentaque Sogamoso no esta en esta encuesta")
 dataConvertidaADataFrame ['Ciudad'] = dataConvertidaADataFrame ['Ciudad'].fillna("Sogamoso")
 print (dataConvertidaADataFrame )
 
@@ -57,8 +58,9 @@ dataConvertidaADataFrame ['Edad'] = dataConvertidaADataFrame ['Edad'].fillna(dat
 print (dataConvertidaADataFrame)
 
 dataConvertidaADataFrame = dataConvertidaADataFrame.drop(columns ="Ciudad")
-
+print("los ganadores para esta encuesta")
 dataConvertidaADataFrame = dataConvertidaADataFrame.rename(columns = {'edadesconIva':'edadesmodificadas'}) 
 print(dataConvertidaADataFrame)
+
 
 
