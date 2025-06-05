@@ -66,6 +66,7 @@ print("Repositorio para ingeniera Mia")
 print("Repositorio para ingeniera Margarita")
 
 print("Margarita Aprobado Git y GitHub")
+print("Solicitar acceso a la plataforma hoy 05 Mayo 2025")
 
 
 
